@@ -1,11 +1,11 @@
-LOCAL_PATH:= $(call my-dir)
+LOCAL_PATH := $(call my-dir)
 
 # ========================================================
 # nano
 # ========================================================
 include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES:= \
+LOCAL_SRC_FILES := \
 	src/browser.c \
 	src/chars.c \
 	src/color.c \
